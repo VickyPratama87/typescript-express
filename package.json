@@ -1,0 +1,39 @@
+{
+	"name": "typescript-express",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "vickymahardyka87 || vickymahardyka76@gmail.com",
+	"license": "MIT",
+	"scripts": {
+		"tsc": "rm -rf build/ && tsc",
+		"ts": "rm -rf build/ && tsc -w",
+		"dev": "nodemon ./build/index.js"
+	},
+	"devDependencies": {
+		"@types/bcrypt": "^5.0.2",
+		"@types/compression": "^1.7.5",
+		"@types/cors": "^2.8.17",
+		"@types/express": "^5.0.0",
+		"@types/helmet": "^4.0.0",
+		"@types/morgan": "^1.9.9",
+		"morgan": "^1.10.0",
+		"typescript": "^5.6.3"
+	},
+	"dependencies": {
+		"@types/cookie-parser": "^1.4.7",
+		"@types/jsonwebtoken": "^9.0.7",
+		"bcrypt": "^5.1.1",
+		"body-parser": "^1.20.3",
+		"compression": "^1.7.4",
+		"cookie-parser": "^1.4.7",
+		"cors": "^2.8.5",
+		"dotenv": "^16.4.5",
+		"express": "^4.21.1",
+		"express-validator": "^7.2.0",
+		"helmet": "^8.0.0",
+		"jsonwebtoken": "^9.0.2",
+		"mysql2": "^3.11.3",
+		"sequelize": "^6.37.5",
+		"sequelize-cli": "^6.6.2"
+	}
+}
